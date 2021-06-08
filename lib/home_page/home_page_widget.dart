@@ -1,0 +1,248 @@
+import '../flutter_flow/flutter_flow_theme.dart';
+import '../flutter_flow/flutter_flow_util.dart';
+import '../flutter_flow/flutter_flow_widgets.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+class HomePageWidget extends StatefulWidget {
+  HomePageWidget({Key key}) : super(key: key);
+
+  @override
+  _HomePageWidgetState createState() => _HomePageWidgetState();
+}
+
+class _HomePageWidgetState extends State<HomePageWidget> {
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      key: scaffoldKey,
+      backgroundColor: Color(0xFFE6E6E6),
+      body: Column(
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          Container(
+            width: double.infinity,
+            height: 140,
+            decoration: BoxDecoration(
+              color: Colors.white,
+            ),
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(15, 0, 15, 20),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Profile',
+                        style: FlutterFlowTheme.title1.override(
+                          fontFamily: 'Poppins',
+                        ),
+                      ),
+                      Text(
+                        'Recent Measurements',
+                        style: FlutterFlowTheme.bodyText1.override(
+                          fontFamily: 'Poppins',
+                          color: Color(0xFF607D8B),
+                        ),
+                      )
+                    ],
+                  ),
+                  Container(
+                    width: 80,
+                    height: 80,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                    ),
+                    child: Image.network(
+                      'https://images.unsplash.com/photo-1621536846990-6726b3828ce7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80',
+                      fit: BoxFit.cover,
+                    ),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 80,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              border: Border.all(
+                color: Color(0xFFE6E6E6),
+              ),
+            ),
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Pour Over - Kilenso',
+                    style: FlutterFlowTheme.bodyText1.override(
+                      fontFamily: 'Poppins',
+                      fontSize: 18,
+                    ),
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Text(
+                        '19.5%',
+                        style: FlutterFlowTheme.subtitle1.override(
+                          fontFamily: 'Montserrat',
+                        ),
+                      ),
+                      Text(
+                        'Espresso',
+                        style: FlutterFlowTheme.bodyText1.override(
+                          fontFamily: 'Poppins',
+                          color: Color(0xFF607D8B),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 80,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              border: Border.all(
+                color: Color(0xFFE6E6E6),
+              ),
+            ),
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Pour Over - Kilenso',
+                    style: FlutterFlowTheme.bodyText1.override(
+                      fontFamily: 'Poppins',
+                      fontSize: 18,
+                    ),
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Text(
+                        '19.5%',
+                        style: FlutterFlowTheme.subtitle1.override(
+                          fontFamily: 'Montserrat',
+                        ),
+                      ),
+                      Text(
+                        'Espresso',
+                        style: FlutterFlowTheme.bodyText1.override(
+                          fontFamily: 'Poppins',
+                          color: Color(0xFF607D8B),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 80,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              border: Border.all(
+                color: Color(0xFFE6E6E6),
+              ),
+            ),
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Pour Over - Kilenso',
+                    style: FlutterFlowTheme.bodyText1.override(
+                      fontFamily: 'Poppins',
+                      fontSize: 18,
+                    ),
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Text(
+                        '19.5%',
+                        style: FlutterFlowTheme.subtitle1.override(
+                          fontFamily: 'Montserrat',
+                        ),
+                      ),
+                      Text(
+                        'Espresso',
+                        style: FlutterFlowTheme.bodyText1.override(
+                          fontFamily: 'Poppins',
+                          color: Color(0xFF607D8B),
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+          Expanded(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 0, 0, 20),
+              child: Column(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
+                    child: FFButtonWidget(
+                      onPressed: () {
+                        print('Button pressed ...');
+                      },
+                      text: 'Measure Coffee',
+                      options: FFButtonOptions(
+                        width: double.infinity,
+                        height: 40,
+                        color: Color(0xFF4099F7),
+                        textStyle: FlutterFlowTheme.subtitle2.override(
+                          fontFamily: 'Poppins',
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ),
+                        borderSide: BorderSide(
+                          color: Colors.transparent,
+                          width: 1,
+                        ),
+                        borderRadius: 12,
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
