@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "923186668316",
+    "project_id": "thisisthedanceapp",
+    "storage_bucket": "thisisthedanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923186668316:android:95d82be97a8c72d7ddd0d9",
+        "android_client_info": {
+          "package_name": "com.flutterflow.tanzen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923186668316-f2m5vt1l3a007v4446esgpd9964ieqoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyiSKhp_KDKyiLnyMvsEduyoAs8sfTmBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923186668316-f2m5vt1l3a007v4446esgpd9964ieqoq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "923186668316-ov7stce4paq3ta8nj51r9vvt579d54ca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.tanzen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

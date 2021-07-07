@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flutterflow.tutorial">
+    package="com.flutterflow.tanzen">
    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="tutorial"
+        android:label="tanzen"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">
 
@@ -40,5 +41,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
     </application>
 </manifest>

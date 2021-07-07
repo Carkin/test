@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>923186668316-ov7stce4paq3ta8nj51r9vvt579d54ca.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.923186668316-ov7stce4paq3ta8nj51r9vvt579d54ca</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA2c9Kx4B3BQiD4EMdRKJ2MhlgXFzOrZy4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>923186668316</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flutterflow.tanzen</string>
+	<key>PROJECT_ID</key>
+	<string>thisisthedanceapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thisisthedanceapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:923186668316:ios:f9b117918e365dddddd0d9</string>
+</dict>
+</plist>
