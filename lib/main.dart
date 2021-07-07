@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:tanzen/home_page/home_page_widget.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'auth/firebase_user_provider.dart';
+import 'package:tanzen/login3/login3_widget.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'home_page/home_page_widget.dart';
@@ -14,14 +15,41 @@ void main() async {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   // This widget is the root of your application.
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  Stream<TanzenFirebaseUser> userStream;
+  TanzenFirebaseUser initialUser;
+
+  @override
+  void initState() {
+    super.initState();
+    userStream = tanzenFirebaseUserStream()
+      ..listen((user) => initialUser ?? setState(() => initialUser = user));
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Tanzen',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: NavBarPage(),
+      home: initialUser == null
+          ? Center(
+              child: Builder(
+                builder: (context) => Image.asset(
+                  'assets/images/Tanzen background 2.jpg',
+                  width: MediaQuery.of(context).size.width / 2,
+                  fit: BoxFit.fitWidth,
+                ),
+              ),
+            )
+          : currentUser.loggedIn
+              ? NavBarPage()
+              : Login3Widget(),
     );
   }
 }
